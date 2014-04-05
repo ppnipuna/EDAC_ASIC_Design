@@ -1,7 +1,10 @@
-Design an error detection and correction block for a microprocessor based on hamming code. Data in and data out are flopped. Data is 128 bits wide. Enable signals allow power savings.
+Design an error detection and correction block for a microprocessor based on hamming code. 
+Data in and data out are flopped. Data is 128 bits wide. 
+Appropriate enable signals allow power savings.
 
 Specifications:
 
-* Data_in is 128 bit wide. Parity bits should be adequate to provide SEC-DED (Single error correction, Double error detection). Use Hamming code.
+* Data_in is 128 bit wide. Parity bits should be adequate to provide SEC-DED 
+  (Single error correction, Double error detection). Use Hamming code.
 * To save power load the registers only when corresponding data_valid signals are asserted high.
 * Synthesize the RTL and optimize the energy consumption and delay of the circuit.
